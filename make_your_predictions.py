@@ -95,7 +95,7 @@ def get_input():
 
 if __name__ == '__main__':
     
-    with open('/home/elneklawy/Desktop/New Folder/final_model.pkl', 'rb') as f:
+    with open('final_model.pkl', 'rb') as f:
         loaded_model = dill.load(f)
     input = get_input()
     print(input)
